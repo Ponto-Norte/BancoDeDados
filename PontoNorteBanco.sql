@@ -307,7 +307,7 @@ ALTER TABLE Adquirir
   REFERENCES Plano(idPlano);
 
 
--- Testes rápidos
+
 SELECT * FROM Trilheiro;
 INSERT INTO Trilheiro(nomeTrilheiro, cpfTrilheiro, generoTrilheiro)
 VALUES ('Enzo', '12345678900', 'Masculino'),
